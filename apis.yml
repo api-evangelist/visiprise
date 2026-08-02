@@ -1,4 +1,16 @@
 aid: visiprise
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/visiprise.png
 name: Visiprise
 description: Visiprise is a company surfaced as a portfolio company of canaan-partners and added to the
   API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,7 +23,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: Visiprise was a manufacturing execution software company acquired by SAP
+    in 2008; the brand is defunct. visiprise.com resolves to a parked domain
+    (redirects to ww1.visiprise.com on rentondc.com parking nameservers). No live
+    company, developer portal, or API surface exists; nothing to enrich.
 tags:
 - Company
 apis: []
